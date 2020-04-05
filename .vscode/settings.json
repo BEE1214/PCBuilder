@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#262E3E",
+        "titleBar.activeBackground": "#354057",
+        "titleBar.activeForeground": "#FAFAFC"
+    },
+    "python.pythonPath": "~/FunProjects/DBS-PCBuilder/bin",
+}
