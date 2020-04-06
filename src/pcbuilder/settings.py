@@ -38,7 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'components'
+    # Own apps/modules
+    'components',
+    'pages'
+
+    # Third-party apps/modules
+
 ]
 
 MIDDLEWARE = [
@@ -56,7 +61,7 @@ ROOT_URLCONF = 'pcbuilder.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "templets")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
