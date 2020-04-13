@@ -1,11 +1,21 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
-    <title>
-        My home page!! Testing Django 3.0.4
-    </title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PCBUilder</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+        
+            
+    </head>
     <body>
-        {% block content %}
-
-        {% endblock %}
+        <div class="box">
+            <div class="block-content">
+                {% block content %}
+        
+                {% endblock content%}
+            </div>
+        </div>
     </body>
 </html>

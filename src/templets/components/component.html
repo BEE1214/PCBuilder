@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <h1>{{ iComp.CompName }}</h1>
+    <p>{% if iComp.Describtion != None and iComp.Describtion != '' %}{{ iComp.Describtion }} {% else %}Describtion comming soon! {% endif %}</p>
+    <p>{{ iComp.State }}</p>
+    <p>{{ iComp.NextState }}</p>
+{% endblock content %}
+    

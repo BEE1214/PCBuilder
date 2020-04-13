@@ -13,13 +13,12 @@ def about_view(request, *args, **kwargs):
     print("request=",request)
     print("args=",args)
     print("kwargs=",kwargs)
-    return render(request, "about.html", {})
-
-def component_view(request, *args, **kwargs):
-    print("request=",request)
-    print("args=",args)
-    print("kwargs=",kwargs)
-    return render(request, 'component.html', {})
+    information = {
+        "Name":"Adam Dvorsky",
+        "Email":"something@gmail.com",
+        "Phone_Number": "+420736432940"
+    }
+    return render(request, "about.html", information)
 
 def build_view(request, *args, **kwargs):
     print("request=",request)
