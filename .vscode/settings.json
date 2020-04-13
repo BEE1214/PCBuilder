@@ -4,5 +4,5 @@
         "titleBar.activeBackground": "#354057",
         "titleBar.activeForeground": "#FAFAFC"
     },
-    "python.pythonPath": "~/FunProjects/DBS-PCBuilder/bin",
+    "python.pythonPath": "/home/adamd/FunProjects/DBS-PCBilder/bin/python3.8",
 }
